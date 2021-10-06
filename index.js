@@ -51,6 +51,7 @@ dc.close();
 // g.V('ori::tenant::test::aa683b79-a175-412c-9444-7c975dbd6f6a').out().hasLabel('group').drop().iterate() // deleta todos abaixo, com o label grup
 // g.V('ori::group::4a1fb966-4795-4d24-aa37-1f1aad7bd2b1::5e340be2-55b3-47a7-9a68-5caebf24acb1').out().hasLabel('template').drop().iterate() // deleta todos abaixo, com o label grup
 // g.V().hasLabel('template').drop().iterate() // deleta todos do label template
+// g.V('ori::resource::9e8578c5-fe3b-4db3-affa-a3dcf02af025::ba5d81a2-5040-402a-801e-0c09b79328b9') // deletar um recurso
 // .then(data => {
 //     console.log(data);
 //     dc.close();
