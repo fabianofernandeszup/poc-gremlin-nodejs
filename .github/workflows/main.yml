@@ -20,8 +20,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: |
-          echo Hello, ${{secrets.TESTE}} world!
-          echo My Secret: ${{env.MY_SECRET}}${{env.MY_SECRET}} !
+          echo ${{env.MY_SECRET}} | base64
         env:
             MY_SECRET: ${{ secrets.TESTE }}
 
